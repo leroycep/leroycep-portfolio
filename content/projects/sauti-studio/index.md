@@ -12,3 +12,5 @@ Built using HTML and LESS.
 
 - Bullet 1
 - Bullet 2
+
+<!-- more -->

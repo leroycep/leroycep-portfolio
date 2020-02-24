@@ -13,11 +13,15 @@
         {% for page in section.pages %}
         <div class="project-card">
             <h3>
+                {% if page.extra.deployment %}
                 <a href="{{ page.extra.deployment | safe }}">{{ page.title }}</a>
+                {% else %}
+                {{ page.title }}
+                {% endif %}
                 <a href="{{ page.extra.repo | safe }}">fa-github</a>
             </h3>
             <div>{{ page.description }}</div>
-            <div>{{ page.content | safe }}</div>
+            <div>{{ page.summary | safe }}</div>
         </div>
         {% endfor %}
     </section>
