@@ -1,0 +1,27 @@
+body {
+  background-color: #6fcdbd;
+  color: white;
+}
+
+main {
+  padding: 1%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.section-header {
+  border-bottom: 1px solid white;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+
+  .project-card {
+    margin: 1%;
+    padding: 1%;
+    border: 10px solid white;
+    //box-shadow: 3px 3px 3px black;
+    width: 48%;
+  }
+}
