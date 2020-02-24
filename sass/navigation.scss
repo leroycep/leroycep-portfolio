@@ -1,18 +1,15 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-
   a {
+    border-bottom: 1px dotted white;
     text-decoration: none;
+    transition: color 0.2s ease-out, border-bottom 0.2s ease-out;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom: 1px dotted black;
     }
-  }
 
-  .logo {
-    font-size: 2.5rem;
+    &::before {
+      content: "↼";
+    }
   }
 }
