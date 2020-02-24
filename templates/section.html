@@ -1,34 +1,26 @@
-<!doctype html>
+{% extends "template.html" %}
 
-<html lang="en">
+{% block content %}
+<main>
+    <header class="section-header">
+        <h1>{{ section.title }}</h1>
+        <div>
+            {{ section.content | safe }}
+        </div>
+    </header>
 
-<head>
-    <meta charset="utf-8">
+    <section class="projects-container">
+        {% for page in section.pages %}
+        <div class="project-card">
+            <h3>
+                <a href="{{ page.extra.deployment | safe }}">{{ page.title }}</a>
+                <a href="{{ page.extra.repo | safe }}">fa-github</a>
+            </h3>
+            <div>{{ page.description }}</div>
+            <div>{{ page.content | safe }}</div>
+        </div>
+        {% endfor %}
+    </section>
 
-    <title>Template</title>
-    <meta name="description" content="Template">
-    <meta name="author" content="LeRoyce Pearson">
-
-    <link rel="stylesheet" href="/index.css">
-</head>
-
-<body>
-    <main>
-        <header class="section-header">
-            <h1>{{ section.title }}</h1>
-            <div>
-                {{ section.content | safe }}
-            </div>
-        </header>
-        <section class="projects-container">
-            {% for page in section.pages %}
-            <div class="project-card">
-                <h3>{{ page.title }}</h3>
-                <h3>{{ page.description }}</h3>
-            </div>
-            {% endfor %}
-        </section>
-    </main>
-</body>
-
-</html>
+</main>
+{% endblock content %}
