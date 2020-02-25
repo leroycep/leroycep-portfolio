@@ -12,6 +12,9 @@
     <section class="projects-container">
         {% for page in section.pages %}
         <div class="project-card">
+            {% if 'screenshot' in page.extra %}
+            <img src="{{ get_url(path=page.path ~ page.extra.screenshot) }}">
+            {% endif %}
             <h3>
                 {% if page.extra.deployment %}
                 <a href="{{ page.extra.deployment | safe }}">{{ page.title }}</a>

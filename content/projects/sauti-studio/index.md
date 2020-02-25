@@ -6,6 +6,7 @@ weight = 10
 [extra]
 deployment = "https://build-week-sauti-studio.github.io/MarketingPage/"
 repo = "https://github.com/Build-Week-Sauti-Studio/MarketingPage"
+screenshot = "screen-shot.png"
 +++
 
 Built using HTML and LESS.
