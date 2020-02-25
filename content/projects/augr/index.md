@@ -17,4 +17,4 @@ Data synchronization is acheived with [Syncthing][].
 <!-- more -->
 
 [rust]: https://www.rust-lang.org/
-[syncthing]: https://www.rust-lang.org/
+[syncthing]: https://syncthing.net/
