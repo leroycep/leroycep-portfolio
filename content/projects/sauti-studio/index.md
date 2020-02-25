@@ -11,7 +11,7 @@ screenshot = "screen-shot.png"
 
 Built using HTML and LESS.
 
-- Bullet 1
-- Bullet 2
+- Created and designed the marketing pages
+- Site is responsive
 
 <!-- more -->
