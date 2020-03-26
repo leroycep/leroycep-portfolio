@@ -1,7 +1,7 @@
 +++
 title = "augr"
 description = "A command line application for tracking time"
-weight = 9
+weight = 8
 
 [extra]
 repo = "https://github.com/leroycep/augr"

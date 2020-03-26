@@ -1,7 +1,7 @@
 +++
 title = "Sauti Studio"
 description = "Marketing page for a web app to make USSD sites with simple Graphical User Interface"
-weight = 10
+weight = 11
 
 [extra]
 deployment = "https://build-week-sauti-studio.github.io/MarketingPage/"
