@@ -6,6 +6,7 @@ weight = 10
 [extra]
 deployment = "https://project-checklists.now.sh/"
 repo = "https://github.com/leroycep/project-checklists"
+screenshot = "screen-shot.png"
 +++
 
 Built using React.
