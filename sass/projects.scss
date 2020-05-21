@@ -6,7 +6,7 @@
 
 .projects-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   @media (max-width: 600px) {
