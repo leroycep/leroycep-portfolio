@@ -5,6 +5,7 @@ weight = 8
 
 [extra]
 repo = "https://github.com/leroycep/augr"
+screenshot = "screen-shot.png"
 +++
 
 Built using [Rust][]. It stores it's data in a directory of plain text files.
