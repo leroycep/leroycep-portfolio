@@ -24,3 +24,8 @@ links = [
 
 [extra.author]
 name = "LeRoyce Pearson"
+
+[extra.theme]
+background = "#262626"
+foreground = "#FFF"
+hover = "#AEC3B0"

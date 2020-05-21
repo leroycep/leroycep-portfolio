@@ -1,22 +1,24 @@
+@import "variables";
+
 * {
   box-sizing: border-box;
   max-width: 100%;
 }
 
 a {
-  color: white;
+  color: $color-foreground;
   transition: color 0.2s ease-out;
 
   &:hover {
-    color: black;
+    color: $color-hover;
   }
 }
 
 body {
-  background-color: #6fcdbd;
-  color: white;
+  background-color: $color-background;
+  color: $color-foreground;
   padding: 1%;
-  max-width: 1024px;
+  max-width: $max-body-width;
   margin: 0 auto;
 }
 
