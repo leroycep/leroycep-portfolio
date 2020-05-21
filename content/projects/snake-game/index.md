@@ -4,8 +4,9 @@ description = "Inspired by the classic snake game, this project frees the snake 
 weight = 9
 
 [extra]
-deployment = "https://github.com/leroycep/project-checklists"
+deployment = "https://leroycep.github.io/snake-game/"
 repo = "https://github.com/leroycep/snake-game"
+screenshot = "screen-shot.png"
 +++
 
 Built using [zig][ziglang].
