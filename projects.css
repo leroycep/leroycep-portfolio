@@ -1,0 +1,1 @@
+.section-header{border-bottom:1px solid white}.projects-container{display:flex;justify-content:space-between;flex-wrap:wrap}@media (max-width: 600px){.projects-container{flex-direction:column}}.projects-container .project-card{margin:1%;padding:1%;width:48%}@media (max-width: 600px){.projects-container .project-card{width:98%}}

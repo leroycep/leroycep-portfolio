@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.leroycepearson.dev/sitemap.xml
