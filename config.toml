@@ -18,7 +18,7 @@ build_search_index = false
 # Put all your custom variables here
 greeting = "Hello world!"
 links = [
-    { title = "E-Mail", url = "mailto:leroycepearson@geemili.xyz", iconset = "fas", icon = "envelope" },
+    { title = "E-Mail", url = "mailto:hireme@leroycepearson.dev", iconset = "fas", icon = "envelope" },
     { title = "GitHub", url = "https://github.com/leroycep", icon = "github" },
     { title = "Twitter", url = "https://twitter.com/leroyce_pearson", icon = "twitter" },
 ]
